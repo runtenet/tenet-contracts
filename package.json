@@ -1,0 +1,23 @@
+{
+  "name": "tenet-contracts",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "hardhat build",
+    "test": "hardhat test",
+    "test:fork": "node scripts/run-fork-tests.mjs"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox-viem": "5.0.7",
+    "@nomicfoundation/hardhat-viem": "3.1.0",
+    "@openzeppelin/contracts": "5.6.1",
+    "@types/node": "24.19.2",
+    "hardhat": "3.21.1",
+    "typescript": "5.9.3",
+    "viem": "2.57.11"
+  },
+  "dependencies": {
+    "@uniswap/v4-core": "1.0.2"
+  }
+}

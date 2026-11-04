@@ -1,0 +1,908 @@
+{
+  "generatedAt": "2026-10-27T18:43:04.105Z",
+  "chainId": 4663,
+  "maxDeviationPct": 1.5,
+  "poolManager": "0x8366a39cc670b4001a1121b8f6a443a643e40951",
+  "quoter": "0x8dc178efb8111bb0973dd9d722ebeff267c98f94",
+  "usdg": {
+    "symbol": "USDG",
+    "name": "Global Dollar",
+    "address": "0x5fc5360D0400a0Fd4f2af552ADD042D716F1d168",
+    "decimals": 6,
+    "feed": "0x61B7e5650328764B076A108EFF5fa7282a1B9aD2",
+    "maxStaleness": 90000,
+    "kind": "stable"
+  },
+  "weth": {
+    "symbol": "WETH",
+    "name": "Wrapped Ether",
+    "address": "0x0Bd7D308f8E1639FAb988df18A8011f41EAcAD73",
+    "decimals": 18,
+    "feed": "0x78F3556b67E17Df817D51Ef5a990cDaF09E8d3A9",
+    "maxStaleness": 90000,
+    "kind": "eth"
+  },
+  "tokens": [
+    {
+      "symbol": "AAPL",
+      "name": "Apple",
+      "address": "0xaF3D76f1834A1d425780943C99Ea8A608f8a93f9",
+      "decimals": 18,
+      "feed": "0x6B22A786bAa607d76728168703a39Ea9C99f2cD0",
+      "maxStaleness": 90000,
+      "kind": "stock",
+      "multiplier": "1.000566080061092436"
+    },
+    {
+      "symbol": "AMZN",
+      "name": "Amazon",
+      "address": "0x12f190a9F9d7D37a250758b26824B97CE941bF54",
+      "decimals": 18,
+      "feed": "0xD5a1508ceD74c084eBf3cBe853e2C968fB2a651C",
+      "maxStaleness": 90000,
+      "kind": "stock",
+      "multiplier": "1.000000000000000000"
+    },
+    {
+      "symbol": "ASML",
+      "name": "ASML Holding NV",
+      "address": "0x47F93d52cBeC7C6D2CfC080e154002370a60dAEA",
+      "decimals": 18,
+      "feed": "0xB4106147E8cce40b7d46124090d373A71b70f87D",
+      "maxStaleness": 90000,
+      "kind": "stock",
+      "multiplier": "1.000877991671177134"
+    },
+    {
+      "symbol": "BABA",
+      "name": "Alibaba",
+      "address": "0xad25Ac6C84D497db898fa1E8387bf6Af3532a1c4",
+      "decimals": 18,
+      "feed": "0x62Cc8F9b5f56a33c9C8A60c8B92779f523c4E984",
+      "maxStaleness": 90000,
+      "kind": "stock",
+      "multiplier": "1.000000000000000000"
+    },
+    {
+      "symbol": "COIN",
+      "name": "Coinbase",
+      "address": "0x6330D8C3178a418788dF01a47479c0ce7CCF450b",
+      "decimals": 18,
+      "feed": "0xA3a468A452940B7D6b69991207B508c609a98Ef2",
+      "maxStaleness": 90000,
+      "kind": "stock",
+      "multiplier": "1.000000000000000000"
+    },
+    {
+      "symbol": "CRCL",
+      "name": "Circle Internet Group",
+      "address": "0xdF0992E440dD0be65BD8439b609d6D4366bf1CB5",
+      "decimals": 18,
+      "feed": "0x6652eDf64bA3731C4F2D3ce821A0Fb1f1f6b482a",
+      "maxStaleness": 90000,
+      "kind": "stock",
+      "multiplier": "1.000000000000000000"
+    },
+    {
+      "symbol": "GOOGL",
+      "name": "Alphabet Class A",
+      "address": "0x2e0847E8910a9732eB3fb1bb4b70a580ADAD4FE3",
+      "decimals": 18,
+      "feed": "0xF6f373a037c30F0e5010d854385cA89185AE638b",
+      "maxStaleness": 90000,
+      "kind": "stock",
+      "multiplier": "1.000193924414112587"
+    },
+    {
+      "symbol": "INTC",
+      "name": "Intel",
+      "address": "0xc72b96e0E48ecd4DC75E1e45396e26300BC39681",
+      "decimals": 18,
+      "feed": "0x3f390C5C24628Ac7C489515402235FeAD71D1913",
+      "maxStaleness": 90000,
+      "kind": "stock",
+      "multiplier": "1.000000000000000000"
+    },
+    {
+      "symbol": "META",
+      "name": "Meta Platforms",
+      "address": "0xc0D6457C16Cc70d6790Dd43521C899C87ce02f35",
+      "decimals": 18,
+      "feed": "0x7C38C00C30BEe9378381E7B6135d7283356D71b1",
+      "maxStaleness": 90000,
+      "kind": "stock",
+      "multiplier": "1.000541459879451635"
+    },
+    {
+      "symbol": "MSFT",
+      "name": "Microsoft",
+      "address": "0xe93237C50D904957Cf27E7B1133b510C669c2e74",
+      "decimals": 18,
+      "feed": "0x45C3C877C15E6BA2EBB19eA114Ea508d14C1Af2E",
+      "maxStaleness": 90000,
+      "kind": "stock",
+      "multiplier": "1.000412952576205964"
+    },
+    {
+      "symbol": "MSTR",
+      "name": "Strategy Inc.",
+      "address": "0xec262a75e413fAfD0dF80480274532C79D42da09",
+      "decimals": 18,
+      "feed": "0x396118bdFB181e6240E74D243F266B061c0edc3D",
+      "maxStaleness": 90000,
+      "kind": "stock",
+      "multiplier": "1.000000000000000000"
+    },
+    {
+      "symbol": "MU",
+      "name": "Micron Technology",
+      "address": "0xfF080c8ce2E5feadaCa0Da81314Ae59D232d4afD",
+      "decimals": 18,
+      "feed": "0x425EEFdCf05ed6526C3cE61Af99429A228a6d596",
+      "maxStaleness": 90000,
+      "kind": "stock",
+      "multiplier": "1.000183456682946507"
+    },
+    {
+      "symbol": "NVDA",
+      "name": "NVIDIA",
+      "address": "0xd0601CE157Db5bdC3162BbaC2a2C8aF5320D9EEC",
+      "decimals": 18,
+      "feed": "0x379EC4f7C378F34a1B47E4F3cbeBCbAC3E8E9F15",
+      "maxStaleness": 90000,
+      "kind": "stock",
+      "multiplier": "1.000775159164630595"
+    },
+    {
+      "symbol": "PLTR",
+      "name": "Palantir Technologies",
+      "address": "0x894E1EC2D74FFE5AEF8Dc8A9e84686acCB964F2A",
+      "decimals": 18,
+      "feed": "0x820ABedFF239034956B7A9d2F0a331f9F075eB4c",
+      "maxStaleness": 90000,
+      "kind": "stock",
+      "multiplier": "1.000000000000000000"
+    },
+    {
+      "symbol": "QQQ",
+      "name": "Invesco QQQ",
+      "address": "0xD5f3879160bc7c32ebb4dC785F8a4F505888de68",
+      "decimals": 18,
+      "feed": "0x80901d846d5D7B030F26B480776EE3b29374C2ae",
+      "maxStaleness": 90000,
+      "kind": "stock",
+      "multiplier": "1.000700791241405425"
+    },
+    {
+      "symbol": "SNDK",
+      "name": "Sandisk Corporation",
+      "address": "0xB90A19fF0Af67f7779afF50A882A9CfF42446400",
+      "decimals": 18,
+      "feed": "0xfb133Fa4B7b385802B693a293606682Df47109A3",
+      "maxStaleness": 90000,
+      "kind": "stock",
+      "multiplier": "1.000000000000000000"
+    },
+    {
+      "symbol": "SPCX",
+      "name": "Space Exploration Technologies Corp. Class A Common Stock",
+      "address": "0x4a0E65A3EcceC6dBe60AE065F2e7bb85Fae35eEa",
+      "decimals": 18,
+      "feed": "0xB265810950ba6c5C0Ff821c9963014a56fD8Bffb",
+      "maxStaleness": 90000,
+      "kind": "stock",
+      "multiplier": "1.000000000000000000"
+    },
+    {
+      "symbol": "SPY",
+      "name": "SPDR S&P 500 ETF Trust",
+      "address": "0x117cc2133c37B721F49dE2A7a74833232B3B4C0C",
+      "decimals": 18,
+      "feed": "0x319724394D3A0e3669269846abE664Cd621f9f6A",
+      "maxStaleness": 90000,
+      "kind": "stock",
+      "multiplier": "1.001717991187472003"
+    },
+    {
+      "symbol": "TSLA",
+      "name": "Tesla",
+      "address": "0x322F0929c4625eD5bAd873c95208D54E1c003b2d",
+      "decimals": 18,
+      "feed": "0x4A1166a659A55625345e9515b32adECea5547C38",
+      "maxStaleness": 90000,
+      "kind": "stock",
+      "multiplier": "1.000000000000000000"
+    }
+  ],
+  "pools": [
+    {
+      "symbol": "WETH",
+      "quote": "USDG",
+      "kind": "WETH/USDG",
+      "poolId": "0x61dc65bef03842a9af42ea02fd7ad7638ba89a1a333e2a014fbb51b5238319fa",
+      "key": {
+        "currency0": "0x0Bd7D308f8E1639FAb988df18A8011f41EAcAD73",
+        "currency1": "0x5fc5360D0400a0Fd4f2af552ADD042D716F1d168",
+        "fee": 8388608,
+        "tickSpacing": 10,
+        "hooks": "0xA1AD09c98710d2C709e3bea03708823255312888"
+      },
+      "checked": {
+        "usd": 100,
+        "buyDevPct": -0.226,
+        "sellDevPct": -0.449,
+        "buy1000DevPct": -0.189,
+        "forkBuyDevPct": -0.215,
+        "forkSellDevPct": -0.43,
+        "verifiedBy": "executed on fork via UniswapV4Adapter"
+      }
+    },
+    {
+      "symbol": "WETH",
+      "quote": "USDG",
+      "kind": "WETH/USDG",
+      "poolId": "0x007768bf8a7686118066323a69e35e3facc76c6b61cb530f95581a5f6aa47b97",
+      "key": {
+        "currency0": "0x0Bd7D308f8E1639FAb988df18A8011f41EAcAD73",
+        "currency1": "0x5fc5360D0400a0Fd4f2af552ADD042D716F1d168",
+        "fee": 8388608,
+        "tickSpacing": 1,
+        "hooks": "0xA117C4f25474b1283345E4DF8D88b9aeC4F62888"
+      },
+      "checked": {
+        "usd": 100,
+        "buyDevPct": -0.228,
+        "sellDevPct": -0.453,
+        "buy1000DevPct": -0.226,
+        "forkBuyDevPct": -0.211,
+        "forkSellDevPct": -0.435,
+        "verifiedBy": "executed on fork via UniswapV4Adapter"
+      }
+    },
+    {
+      "symbol": "WETH",
+      "quote": "USDG",
+      "kind": "WETH/USDG",
+      "poolId": "0xff988802bb5414ee50408ee31aea3095a38ea2b741fbc9d7621bf649d7df5a00",
+      "key": {
+        "currency0": "0x0Bd7D308f8E1639FAb988df18A8011f41EAcAD73",
+        "currency1": "0x5fc5360D0400a0Fd4f2af552ADD042D716F1d168",
+        "fee": 8388608,
+        "tickSpacing": 10,
+        "hooks": "0x6d03f039D23bfdb2d70709eAd07308A756bb40c4"
+      },
+      "checked": {
+        "usd": 100,
+        "buyDevPct": -0.223,
+        "sellDevPct": -0.474,
+        "buy1000DevPct": 0.137,
+        "forkBuyDevPct": -0.228,
+        "forkSellDevPct": -0.4,
+        "verifiedBy": "executed on fork via UniswapV4Adapter"
+      }
+    },
+    {
+      "symbol": "AAPL",
+      "quote": "USDG",
+      "kind": "stock/USDG",
+      "poolId": "0x6b1658d7e80dc1af710bca9005fb7ec2a27d560df1b813c7c75c1fe4d873435f",
+      "key": {
+        "currency0": "0x5fc5360D0400a0Fd4f2af552ADD042D716F1d168",
+        "currency1": "0xaF3D76f1834A1d425780943C99Ea8A608f8a93f9",
+        "fee": 8388608,
+        "tickSpacing": 1,
+        "hooks": "0xA117C4f25474b1283345E4DF8D88b9aeC4F62888"
+      },
+      "checked": {
+        "usd": 100,
+        "buyDevPct": 0.002,
+        "sellDevPct": -0.319,
+        "buy1000DevPct": 0.441,
+        "forkBuyDevPct": -0.003,
+        "forkSellDevPct": -0.227,
+        "verifiedBy": "executed on fork via UniswapV4Adapter"
+      }
+    },
+    {
+      "symbol": "AAPL",
+      "quote": "USDG",
+      "kind": "stock/USDG",
+      "poolId": "0x083c1c8acdee00cbd802c24a1bb09b80639928f563c11a5e703da6b9ba849a8b",
+      "key": {
+        "currency0": "0x5fc5360D0400a0Fd4f2af552ADD042D716F1d168",
+        "currency1": "0xaF3D76f1834A1d425780943C99Ea8A608f8a93f9",
+        "fee": 8388608,
+        "tickSpacing": 60,
+        "hooks": "0xA1AD09c98710d2C709e3bea03708823255312888"
+      },
+      "checked": {
+        "usd": 100,
+        "buyDevPct": -0.053,
+        "sellDevPct": -0.376,
+        "buy1000DevPct": 0.052,
+        "forkBuyDevPct": -0.058,
+        "forkSellDevPct": -0.358,
+        "verifiedBy": "executed on fork via UniswapV4Adapter"
+      }
+    },
+    {
+      "symbol": "AMZN",
+      "quote": "USDG",
+      "kind": "stock/USDG",
+      "poolId": "0xf02019ee6c0e6c04dfe84a9091f2b161dace84c2755853a8692c7513bfe2a394",
+      "key": {
+        "currency0": "0x12f190a9F9d7D37a250758b26824B97CE941bF54",
+        "currency1": "0x5fc5360D0400a0Fd4f2af552ADD042D716F1d168",
+        "fee": 8388608,
+        "tickSpacing": 60,
+        "hooks": "0x2Dbe141bC56a66D0ff4d9E5654708D44042F20Cc"
+      },
+      "checked": {
+        "usd": 100,
+        "buyDevPct": 0.171,
+        "sellDevPct": -0.711,
+        "buy1000DevPct": 0.998,
+        "forkBuyDevPct": 0.166,
+        "forkSellDevPct": -0.533,
+        "verifiedBy": "executed on fork via UniswapV4Adapter"
+      }
+    },
+    {
+      "symbol": "ASML",
+      "quote": "USDG",
+      "kind": "stock/USDG",
+      "poolId": "0x0d423c34057264bd0f6dd0daac98431a6ed431a90599de5d83cc9cbdde808d83",
+      "key": {
+        "currency0": "0x47F93d52cBeC7C6D2CfC080e154002370a60dAEA",
+        "currency1": "0x5fc5360D0400a0Fd4f2af552ADD042D716F1d168",
+        "fee": 8388608,
+        "tickSpacing": 100,
+        "hooks": "0xA117C4f25474b1283345E4DF8D88b9aeC4F62888"
+      },
+      "checked": {
+        "usd": 100,
+        "buyDevPct": 0.607,
+        "sellDevPct": -0.412,
+        "buy1000DevPct": 2.038,
+        "forkBuyDevPct": 0.602,
+        "forkSellDevPct": -0.1,
+        "verifiedBy": "executed on fork via UniswapV4Adapter"
+      }
+    },
+    {
+      "symbol": "BABA",
+      "quote": "USDG",
+      "kind": "stock/USDG",
+      "poolId": "0xc9dced47bcf804268643e1f8ef21db08d1081e13f0102a69fec1a168598079f9",
+      "key": {
+        "currency0": "0x5fc5360D0400a0Fd4f2af552ADD042D716F1d168",
+        "currency1": "0xad25Ac6C84D497db898fa1E8387bf6Af3532a1c4",
+        "fee": 8388608,
+        "tickSpacing": 50,
+        "hooks": "0xA117C4f25474b1283345E4DF8D88b9aeC4F62888"
+      },
+      "checked": {
+        "usd": 100,
+        "buyDevPct": 0.163,
+        "sellDevPct": -0.436,
+        "buy1000DevPct": 0.611,
+        "forkBuyDevPct": 0.158,
+        "forkSellDevPct": -0.342,
+        "verifiedBy": "executed on fork via UniswapV4Adapter"
+      }
+    },
+    {
+      "symbol": "COIN",
+      "quote": "USDG",
+      "kind": "stock/USDG",
+      "poolId": "0x1e8ba156af0343a50f8d6397c9799e61a3187b36223a154819ddcb4f872e38b4",
+      "key": {
+        "currency0": "0x5fc5360D0400a0Fd4f2af552ADD042D716F1d168",
+        "currency1": "0x6330D8C3178a418788dF01a47479c0ce7CCF450b",
+        "fee": 8388608,
+        "tickSpacing": 60,
+        "hooks": "0xA1AD09c98710d2C709e3bea03708823255312888"
+      },
+      "checked": {
+        "usd": 100,
+        "buyDevPct": 0.053,
+        "sellDevPct": -0.771,
+        "buy1000DevPct": 0.244,
+        "forkBuyDevPct": 0.097,
+        "forkSellDevPct": -0.701,
+        "verifiedBy": "executed on fork via UniswapV4Adapter"
+      }
+    },
+    {
+      "symbol": "CRCL",
+      "quote": "USDG",
+      "kind": "stock/USDG",
+      "poolId": "0xd297e8ea0f27663868941097cfaed751b118fac0882ff60d02b7c015366bdd37",
+      "key": {
+        "currency0": "0x5fc5360D0400a0Fd4f2af552ADD042D716F1d168",
+        "currency1": "0xdF0992E440dD0be65BD8439b609d6D4366bf1CB5",
+        "fee": 8388608,
+        "tickSpacing": 50,
+        "hooks": "0xA117C4f25474b1283345E4DF8D88b9aeC4F62888"
+      },
+      "checked": {
+        "usd": 100,
+        "buyDevPct": 0.244,
+        "sellDevPct": -1.403,
+        "buy1000DevPct": 2.295,
+        "forkBuyDevPct": 0.387,
+        "forkSellDevPct": -0.812,
+        "verifiedBy": "executed on fork via UniswapV4Adapter"
+      }
+    },
+    {
+      "symbol": "GOOGL",
+      "quote": "USDG",
+      "kind": "stock/USDG",
+      "poolId": "0x664df7a715e36cc54ef3b5049e3cab1207260ecdda7a6d05c2e3d0f0f73ddfbc",
+      "key": {
+        "currency0": "0x2e0847E8910a9732eB3fb1bb4b70a580ADAD4FE3",
+        "currency1": "0x5fc5360D0400a0Fd4f2af552ADD042D716F1d168",
+        "fee": 8388608,
+        "tickSpacing": 1,
+        "hooks": "0xA117C4f25474b1283345E4DF8D88b9aeC4F62888"
+      },
+      "checked": {
+        "usd": 100,
+        "buyDevPct": 0.244,
+        "sellDevPct": -0.067,
+        "buy1000DevPct": 0.63,
+        "forkBuyDevPct": 0.239,
+        "forkSellDevPct": 0.014,
+        "verifiedBy": "executed on fork via UniswapV4Adapter"
+      }
+    },
+    {
+      "symbol": "GOOGL",
+      "quote": "USDG",
+      "kind": "stock/USDG",
+      "poolId": "0xad92d32a99eb8c6e3da89d4fa56cf2a5424a644f91fa84b17499cd23a54de1e5",
+      "key": {
+        "currency0": "0x2e0847E8910a9732eB3fb1bb4b70a580ADAD4FE3",
+        "currency1": "0x5fc5360D0400a0Fd4f2af552ADD042D716F1d168",
+        "fee": 8388608,
+        "tickSpacing": 60,
+        "hooks": "0xA1AD09c98710d2C709e3bea03708823255312888"
+      },
+      "checked": {
+        "usd": 100,
+        "buyDevPct": 0.272,
+        "sellDevPct": -0.159,
+        "buy1000DevPct": 0.794,
+        "forkBuyDevPct": 0.267,
+        "forkSellDevPct": -0.033,
+        "verifiedBy": "executed on fork via UniswapV4Adapter"
+      }
+    },
+    {
+      "symbol": "INTC",
+      "quote": "USDG",
+      "kind": "stock/USDG",
+      "poolId": "0x816626d5d76487e64faf23616b18902e9c32b4b9764bf85b7df0774556980c62",
+      "key": {
+        "currency0": "0x5fc5360D0400a0Fd4f2af552ADD042D716F1d168",
+        "currency1": "0xc72b96e0E48ecd4DC75E1e45396e26300BC39681",
+        "fee": 8388608,
+        "tickSpacing": 100,
+        "hooks": "0xA117C4f25474b1283345E4DF8D88b9aeC4F62888"
+      },
+      "checked": {
+        "usd": 100,
+        "buyDevPct": 0.534,
+        "sellDevPct": -0.275,
+        "buy1000DevPct": 1.016,
+        "forkBuyDevPct": 0.529,
+        "forkSellDevPct": -0.173,
+        "verifiedBy": "executed on fork via UniswapV4Adapter"
+      }
+    },
+    {
+      "symbol": "INTC",
+      "quote": "USDG",
+      "kind": "stock/USDG",
+      "poolId": "0x11d8822d20248afa3370cef05d5b0605bbe899231a64b2f5016f7b09ed4ea5ba",
+      "key": {
+        "currency0": "0x5fc5360D0400a0Fd4f2af552ADD042D716F1d168",
+        "currency1": "0xc72b96e0E48ecd4DC75E1e45396e26300BC39681",
+        "fee": 8388608,
+        "tickSpacing": 60,
+        "hooks": "0xA1AD09c98710d2C709e3bea03708823255312888"
+      },
+      "checked": {
+        "usd": 100,
+        "buyDevPct": 0.618,
+        "sellDevPct": -0.277,
+        "buy1000DevPct": 1.113,
+        "forkBuyDevPct": 0.613,
+        "forkSellDevPct": -0.189,
+        "verifiedBy": "executed on fork via UniswapV4Adapter"
+      }
+    },
+    {
+      "symbol": "META",
+      "quote": "USDG",
+      "kind": "stock/USDG",
+      "poolId": "0x60a1b5bd466f7fbf54e887afe4720290c49851a3adf3cca11b569d43cc28183e",
+      "key": {
+        "currency0": "0x5fc5360D0400a0Fd4f2af552ADD042D716F1d168",
+        "currency1": "0xc0D6457C16Cc70d6790Dd43521C899C87ce02f35",
+        "fee": 8388608,
+        "tickSpacing": 50,
+        "hooks": "0xA117C4f25474b1283345E4DF8D88b9aeC4F62888"
+      },
+      "checked": {
+        "usd": 100,
+        "buyDevPct": -0.127,
+        "sellDevPct": -0.401,
+        "buy1000DevPct": 0.075,
+        "forkBuyDevPct": -0.132,
+        "forkSellDevPct": -0.362,
+        "verifiedBy": "executed on fork via UniswapV4Adapter"
+      }
+    },
+    {
+      "symbol": "MSFT",
+      "quote": "USDG",
+      "kind": "stock/USDG",
+      "poolId": "0x97da1b280188adf24c58f2c31952e3ecb4a6c7780dd6af1c1f4c2dfab028878a",
+      "key": {
+        "currency0": "0x5fc5360D0400a0Fd4f2af552ADD042D716F1d168",
+        "currency1": "0xe93237C50D904957Cf27E7B1133b510C669c2e74",
+        "fee": 8388608,
+        "tickSpacing": 60,
+        "hooks": "0x2Dbe141bC56a66D0ff4d9E5654708D44042F20Cc"
+      },
+      "checked": {
+        "usd": 100,
+        "buyDevPct": 0.431,
+        "sellDevPct": -0.28,
+        "buy1000DevPct": 0.47,
+        "forkBuyDevPct": 0.402,
+        "forkSellDevPct": -0.3,
+        "verifiedBy": "executed on fork via UniswapV4Adapter"
+      }
+    },
+    {
+      "symbol": "MSTR",
+      "quote": "USDG",
+      "kind": "stock/USDG",
+      "poolId": "0x0e394ed69d19b342cb961b25cd4ee23b229340d32ed9485f2d58e80d8d32477c",
+      "key": {
+        "currency0": "0x5fc5360D0400a0Fd4f2af552ADD042D716F1d168",
+        "currency1": "0xec262a75e413fAfD0dF80480274532C79D42da09",
+        "fee": 8388608,
+        "tickSpacing": 10,
+        "hooks": "0xA1AD09c98710d2C709e3bea03708823255312888"
+      },
+      "checked": {
+        "usd": 100,
+        "buyDevPct": 0.186,
+        "sellDevPct": -0.258,
+        "buy1000DevPct": 0.821,
+        "forkBuyDevPct": 0.181,
+        "forkSellDevPct": -0.119,
+        "verifiedBy": "executed on fork via UniswapV4Adapter"
+      }
+    },
+    {
+      "symbol": "MU",
+      "quote": "USDG",
+      "kind": "stock/USDG",
+      "poolId": "0xa6a38fb7a8dad8aed3fb6ba69c556031e1042ed4440a77c6682247130829191a",
+      "key": {
+        "currency0": "0x5fc5360D0400a0Fd4f2af552ADD042D716F1d168",
+        "currency1": "0xfF080c8ce2E5feadaCa0Da81314Ae59D232d4afD",
+        "fee": 8388608,
+        "tickSpacing": 100,
+        "hooks": "0xA117C4f25474b1283345E4DF8D88b9aeC4F62888"
+      },
+      "checked": {
+        "usd": 100,
+        "buyDevPct": 0.503,
+        "sellDevPct": -0.409,
+        "buy1000DevPct": 1.453,
+        "forkBuyDevPct": 0.498,
+        "forkSellDevPct": -0.204,
+        "verifiedBy": "executed on fork via UniswapV4Adapter"
+      }
+    },
+    {
+      "symbol": "NVDA",
+      "quote": "USDG",
+      "kind": "stock/USDG",
+      "poolId": "0xbc439d39861c0fbba9cb4543aeeb9162657c21b8a19b8346f1c5d2228f901918",
+      "key": {
+        "currency0": "0x5fc5360D0400a0Fd4f2af552ADD042D716F1d168",
+        "currency1": "0xd0601CE157Db5bdC3162BbaC2a2C8aF5320D9EEC",
+        "fee": 8388608,
+        "tickSpacing": 60,
+        "hooks": "0xA1AD09c98710d2C709e3bea03708823255312888"
+      },
+      "checked": {
+        "usd": 100,
+        "buyDevPct": 0.025,
+        "sellDevPct": -0.212,
+        "buy1000DevPct": 0.091,
+        "forkBuyDevPct": 0.019,
+        "forkSellDevPct": -0.201,
+        "verifiedBy": "executed on fork via UniswapV4Adapter"
+      }
+    },
+    {
+      "symbol": "NVDA",
+      "quote": "USDG",
+      "kind": "stock/USDG",
+      "poolId": "0xd8a4fd1ea7ecad16cd88e6ec6cd4b83ad0df2b4e41633e5a97f9d1393da18644",
+      "key": {
+        "currency0": "0x5fc5360D0400a0Fd4f2af552ADD042D716F1d168",
+        "currency1": "0xd0601CE157Db5bdC3162BbaC2a2C8aF5320D9EEC",
+        "fee": 8388608,
+        "tickSpacing": 10,
+        "hooks": "0xA117C4f25474b1283345E4DF8D88b9aeC4F62888"
+      },
+      "checked": {
+        "usd": 100,
+        "buyDevPct": 0.014,
+        "sellDevPct": -0.228,
+        "buy1000DevPct": 0.068,
+        "forkBuyDevPct": 0.022,
+        "forkSellDevPct": -0.207,
+        "verifiedBy": "executed on fork via UniswapV4Adapter"
+      }
+    },
+    {
+      "symbol": "NVDA",
+      "quote": "WETH",
+      "kind": "stock/WETH",
+      "poolId": "0xd876f105cec9418974c2aad800124c901d7a791780387ac6615ded36b29a7251",
+      "key": {
+        "currency0": "0x0Bd7D308f8E1639FAb988df18A8011f41EAcAD73",
+        "currency1": "0xd0601CE157Db5bdC3162BbaC2a2C8aF5320D9EEC",
+        "fee": 8388608,
+        "tickSpacing": 50,
+        "hooks": "0xA117C4f25474b1283345E4DF8D88b9aeC4F62888"
+      },
+      "checked": {
+        "usd": 100,
+        "buyDevPct": 0.353,
+        "sellDevPct": 0.07,
+        "buy1000DevPct": 0.594,
+        "forkBuyDevPct": 0.373,
+        "forkSellDevPct": 0.142,
+        "verifiedBy": "executed on fork via UniswapV4Adapter"
+      }
+    },
+    {
+      "symbol": "PLTR",
+      "quote": "USDG",
+      "kind": "stock/USDG",
+      "poolId": "0xb0a1bdfb9f7611d5cdf5ea39c49302b75db7b4588adf3c4054f1533d45f78942",
+      "key": {
+        "currency0": "0x5fc5360D0400a0Fd4f2af552ADD042D716F1d168",
+        "currency1": "0x894E1EC2D74FFE5AEF8Dc8A9e84686acCB964F2A",
+        "fee": 8388608,
+        "tickSpacing": 50,
+        "hooks": "0xA117C4f25474b1283345E4DF8D88b9aeC4F62888"
+      },
+      "checked": {
+        "usd": 100,
+        "buyDevPct": 0.302,
+        "sellDevPct": -0.093,
+        "buy1000DevPct": 0.802,
+        "forkBuyDevPct": 0.297,
+        "forkSellDevPct": 0.013,
+        "verifiedBy": "executed on fork via UniswapV4Adapter"
+      }
+    },
+    {
+      "symbol": "PLTR",
+      "quote": "USDG",
+      "kind": "stock/USDG",
+      "poolId": "0xf0843467fc6350b057d09403a1b81a558b7a3eb5942855bf202d7107b4fed216",
+      "key": {
+        "currency0": "0x5fc5360D0400a0Fd4f2af552ADD042D716F1d168",
+        "currency1": "0x894E1EC2D74FFE5AEF8Dc8A9e84686acCB964F2A",
+        "fee": 8388608,
+        "tickSpacing": 60,
+        "hooks": "0x2Dbe141bC56a66D0ff4d9E5654708D44042F20Cc"
+      },
+      "checked": {
+        "usd": 100,
+        "buyDevPct": 1.258,
+        "sellDevPct": -0.959,
+        "buy1000DevPct": 1.273,
+        "forkBuyDevPct": 1.253,
+        "forkSellDevPct": -0.961,
+        "verifiedBy": "executed on fork via UniswapV4Adapter"
+      }
+    },
+    {
+      "symbol": "QQQ",
+      "quote": "USDG",
+      "kind": "stock/USDG",
+      "poolId": "0x2825d124eb24f97952ea33344a410a8dba6e6db5905e94014f7326d95fa3acb5",
+      "key": {
+        "currency0": "0x5fc5360D0400a0Fd4f2af552ADD042D716F1d168",
+        "currency1": "0xD5f3879160bc7c32ebb4dC785F8a4F505888de68",
+        "fee": 8388608,
+        "tickSpacing": 1,
+        "hooks": "0xA117C4f25474b1283345E4DF8D88b9aeC4F62888"
+      },
+      "checked": {
+        "usd": 100,
+        "buyDevPct": 0.203,
+        "sellDevPct": -0.113,
+        "buy1000DevPct": 0.362,
+        "forkBuyDevPct": 0.198,
+        "forkSellDevPct": -0.083,
+        "verifiedBy": "executed on fork via UniswapV4Adapter"
+      }
+    },
+    {
+      "symbol": "QQQ",
+      "quote": "USDG",
+      "kind": "stock/USDG",
+      "poolId": "0x185e6109cc6bdb40ca642c3f2ccbbf4cd5373bf830112accf7c6b2e7014c5ed8",
+      "key": {
+        "currency0": "0x5fc5360D0400a0Fd4f2af552ADD042D716F1d168",
+        "currency1": "0xD5f3879160bc7c32ebb4dC785F8a4F505888de68",
+        "fee": 8388608,
+        "tickSpacing": 10,
+        "hooks": "0xA1AD09c98710d2C709e3bea03708823255312888"
+      },
+      "checked": {
+        "usd": 100,
+        "buyDevPct": 0.24,
+        "sellDevPct": -0.12,
+        "buy1000DevPct": 0.509,
+        "forkBuyDevPct": 0.235,
+        "forkSellDevPct": -0.065,
+        "verifiedBy": "executed on fork via UniswapV4Adapter"
+      }
+    },
+    {
+      "symbol": "SNDK",
+      "quote": "USDG",
+      "kind": "stock/USDG",
+      "poolId": "0x91fd05750a6cc0e260044612bcc90250c3fdce7fbce9c51b6cd9300458701de1",
+      "key": {
+        "currency0": "0x5fc5360D0400a0Fd4f2af552ADD042D716F1d168",
+        "currency1": "0xB90A19fF0Af67f7779afF50A882A9CfF42446400",
+        "fee": 8388608,
+        "tickSpacing": 10,
+        "hooks": "0xA1AD09c98710d2C709e3bea03708823255312888"
+      },
+      "checked": {
+        "usd": 100,
+        "buyDevPct": 0.182,
+        "sellDevPct": -0.221,
+        "buy1000DevPct": 0.636,
+        "forkBuyDevPct": 0.177,
+        "forkSellDevPct": -0.123,
+        "verifiedBy": "executed on fork via UniswapV4Adapter"
+      }
+    },
+    {
+      "symbol": "SNDK",
+      "quote": "USDG",
+      "kind": "stock/USDG",
+      "poolId": "0xcfee059956b81686d459779c20eb264af3cfb3540019ae30922680407858df50",
+      "key": {
+        "currency0": "0x5fc5360D0400a0Fd4f2af552ADD042D716F1d168",
+        "currency1": "0xB90A19fF0Af67f7779afF50A882A9CfF42446400",
+        "fee": 8388608,
+        "tickSpacing": 60,
+        "hooks": "0x2Dbe141bC56a66D0ff4d9E5654708D44042F20Cc"
+      },
+      "checked": {
+        "usd": 100,
+        "buyDevPct": 1.346,
+        "sellDevPct": -0.884,
+        "buy1000DevPct": 1.411,
+        "forkBuyDevPct": 1.341,
+        "forkSellDevPct": -0.875,
+        "verifiedBy": "executed on fork via UniswapV4Adapter"
+      }
+    },
+    {
+      "symbol": "SPCX",
+      "quote": "USDG",
+      "kind": "stock/USDG",
+      "poolId": "0x2329abe1943d56168a15d9b52970024a88b321c624eb9f732833271ddd9b3ccf",
+      "key": {
+        "currency0": "0x4a0E65A3EcceC6dBe60AE065F2e7bb85Fae35eEa",
+        "currency1": "0x5fc5360D0400a0Fd4f2af552ADD042D716F1d168",
+        "fee": 8388608,
+        "tickSpacing": 1,
+        "hooks": "0xA117C4f25474b1283345E4DF8D88b9aeC4F62888"
+      },
+      "checked": {
+        "usd": 100,
+        "buyDevPct": 0.101,
+        "sellDevPct": -0.185,
+        "buy1000DevPct": 0.126,
+        "forkBuyDevPct": 0.096,
+        "forkSellDevPct": -0.184,
+        "verifiedBy": "executed on fork via UniswapV4Adapter"
+      }
+    },
+    {
+      "symbol": "SPY",
+      "quote": "USDG",
+      "kind": "stock/USDG",
+      "poolId": "0x71c47825482bb4cc0104c5cacbb7d622aacc8b8fb83827ef2db25027dab30fa6",
+      "key": {
+        "currency0": "0x117cc2133c37B721F49dE2A7a74833232B3B4C0C",
+        "currency1": "0x5fc5360D0400a0Fd4f2af552ADD042D716F1d168",
+        "fee": 8388608,
+        "tickSpacing": 1,
+        "hooks": "0xA117C4f25474b1283345E4DF8D88b9aeC4F62888"
+      },
+      "checked": {
+        "usd": 100,
+        "buyDevPct": 0.225,
+        "sellDevPct": -0.007,
+        "buy1000DevPct": 0.232,
+        "forkBuyDevPct": 0.219,
+        "forkSellDevPct": -0.011,
+        "verifiedBy": "executed on fork via UniswapV4Adapter"
+      }
+    },
+    {
+      "symbol": "SPY",
+      "quote": "WETH",
+      "kind": "stock/WETH",
+      "poolId": "0x0e1a65fa74f542153080fc3a3b5825fb3ac037c075f721962ca8f5e8bab3fa2d",
+      "key": {
+        "currency0": "0x0Bd7D308f8E1639FAb988df18A8011f41EAcAD73",
+        "currency1": "0x117cc2133c37B721F49dE2A7a74833232B3B4C0C",
+        "fee": 8388608,
+        "tickSpacing": 1,
+        "hooks": "0xA117C4f25474b1283345E4DF8D88b9aeC4F62888"
+      },
+      "checked": {
+        "usd": 100,
+        "buyDevPct": 0.567,
+        "sellDevPct": 0.312,
+        "buy1000DevPct": 0.674,
+        "forkBuyDevPct": 0.566,
+        "forkSellDevPct": 0.335,
+        "verifiedBy": "executed on fork via UniswapV4Adapter"
+      }
+    },
+    {
+      "symbol": "TSLA",
+      "quote": "USDG",
+      "kind": "stock/USDG",
+      "poolId": "0x83f52d633edfd3aa2b5325630f1375a53fd0dcea9e3ae31d2b069abb2859a86a",
+      "key": {
+        "currency0": "0x322F0929c4625eD5bAd873c95208D54E1c003b2d",
+        "currency1": "0x5fc5360D0400a0Fd4f2af552ADD042D716F1d168",
+        "fee": 8388608,
+        "tickSpacing": 60,
+        "hooks": "0x2Dbe141bC56a66D0ff4d9E5654708D44042F20Cc"
+      },
+      "checked": {
+        "usd": 100,
+        "buyDevPct": 0.136,
+        "sellDevPct": -0.572,
+        "buy1000DevPct": 0.179,
+        "forkBuyDevPct": 0.131,
+        "forkSellDevPct": -0.568,
+        "verifiedBy": "executed on fork via UniswapV4Adapter"
+      }
+    }
+  ],
+  "vettedAt": "2026-10-27T18:47:42.086Z",
+  "vetting": {
+    "method": "buy then sell back through UniswapV4Adapter on a local mainnet fork",
+    "buyUsd": 100,
+    "maxDeviationPct": 1.5,
+    "wethUnwrap": "ok"
+  }
+}
