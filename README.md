@@ -31,7 +31,7 @@ signs, and the vault checks every trade against them on chain.
 | AgentLicenses | `0xa40704589d510773a23c0630f9d674c03e0c6ccf` |
 | FeePool | `0x1e01644c40e0c29784f27379c2f8b54b6eef2e09` |
 
-The sources are also verified on Sourcify. The address book with the token list and price feeds is in `deployments/4663.json` and
+Every deployed contract, including the vault implementation that each vault clones and the Uniswap v4 adapter, is verified on Sourcify (exact match). The address book with the token list and price feeds is in `deployments/4663.json` and
 `config/mainnet.json`.
 
 ## Build and test
